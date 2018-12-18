@@ -8,3 +8,11 @@ fun {Fact N}
 end
 
 {Browse {Fact 100}}
+
+declare
+fun {Comb N K}
+  {Fact N} div ({Fact K}*{Fact N-K})
+end
+declare
+
+{Browse {Comb 10 3}}
