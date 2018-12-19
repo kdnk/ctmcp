@@ -16,3 +16,5 @@ end
 declare
 
 {Browse {Comb 10 3}}
+
+{Browse [5 6 7 8]}
