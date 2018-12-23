@@ -1,11 +1,10 @@
 functor
 import
-   System
+   /* System */
    Application
 define
    /* 1.5 function about list */
    fun {Pascal N}
-      {System.showInfo N}
       if N==1 then [1]
       else
          {AddList {ShiftLeft {Pascal N-1}} {ShiftRight {Pascal N-1}}}
@@ -32,7 +31,7 @@ define
       else nil end
    end
 
-   {System.showInfo {List.toTuple '#' {Pascal 10}}}
+   /* {System.showInfo {List.toTuple '#' {Pascal 10}}} */
 
    {Application.exit 0}
 end

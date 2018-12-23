@@ -9,10 +9,10 @@ define
    /* 1.7 computational complexity */
 
    fun {FastPascal N}
-      {System.showInfo N}
+      /* {System.showInfo N} */
       if N==1 then [1]
       else L in
-         /* FastPascal は階づつしか呼ばれなくなる */
+         /* FastPascal は1回づつしか呼ばれなくなる */
          L={FastPascal N-1}
          {AddList {ShiftLeft L} {ShiftRight L}}
       end
