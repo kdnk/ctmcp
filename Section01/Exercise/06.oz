@@ -54,5 +54,10 @@ define
    {System.show {GenericPascal Multiple 10}} /* 一番最初の行で AddList したときに、[0 1 0] になるので、0*1 == 0, 1*0 == 0 で、以降は全部 0 */
    {System.show {GenericPascal Mull 10}} /* めちゃでかくなる */
 
+   /* 1.18 6(b) */
+   for I in 1..10 do
+      {System.show {GenericPascal Add I}}
+   end
+
    {Application.exit 0}
 end
