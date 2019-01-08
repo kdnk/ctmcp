@@ -1,4 +1,4 @@
-- 計算モデル　 computation model
+- 計算モデル computation model
   - 抽象マシン
 - プログラミングモデル
 - 推論技法
