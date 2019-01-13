@@ -2,8 +2,5 @@
   - 部分データ構造(partial data structure)ってなに？
 - p32
   - 完全値(complete value) とは？
-  - 文脈自由文法(context-free grammer) とは？
-    - 形式言語の理論のなにからしい
-    - https://ja.wikipedia.org/wiki/%E6%96%87%E8%84%88%E8%87%AA%E7%94%B1%E6%96%87%E6%B3%95
 - p34
   - 終端記号? 非終端記号?
