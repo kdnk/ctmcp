@@ -14,3 +14,12 @@ local Max C in
    {Max 3 5 C}
    {Browse C}
 end
+
+
+local LowerBound Y C in
+   Y = 5
+   proc {LowerBound X ?Z}
+      if X >= Y then Z=X else Z=Y end
+   end
+   {LowerBound 3 C}
+end
