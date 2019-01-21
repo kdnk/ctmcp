@@ -280,7 +280,7 @@
 
 - パターンマッチング(case 文)
   - ここ全部わからん????
-  - lit と feat が`person(name: "Nakamura", age: 25)`みたいなもんだと思うとわかるかも
+  - li と feat が`person(name: "Nakamura", age: 25)`みたいなもんだと思うとわかるかも
 
 ### 2.4.5 基本概念再訪
 
