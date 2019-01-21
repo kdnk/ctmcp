@@ -272,7 +272,15 @@
 - **活性化条件(activation condition)**を持つ
 - 宣言的モデルにおいては、文が一旦待機状態に入ると決して再開しない
   - 活性化条件を真にするような別の実行がないから
-- arity: 引数の個数
+- arity:
+  - person(name: 'Kodai', age: 25)とかあったときに
+    - {Arity X} = {name, age}, {Label X} = person
+
+### 2.4.4
+
+- パターンマッチング(case 文)
+  - ここ全部わからん????
+  - lit と feat が`person(name: "Nakamura", age: 25)`みたいなもんだと思うとわかるかも
 
 ### 2.4.5 基本概念再訪
 
